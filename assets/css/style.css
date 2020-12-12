@@ -59,9 +59,8 @@
   font-size: 1.2em;
   line-height: 1.5em;
 }
-.heading {
-  margin: 5px;
-}
 .text {
-  padding: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
